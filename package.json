@@ -6,10 +6,10 @@
   "scripts": {
     "missing": "dependency-sync --once",
     "start": "nodemon",
-    "test": "tape **/*.test.js | faucet"
+    "test": "tape ./tests/*.js | faucet"
   },
   "keywords": [],
-  "author": "",
+  "author": "Gabriella Jonsson",
   "license": "ISC",
   "devDependencies": {
     "dependency-sync": "^2.0.23",

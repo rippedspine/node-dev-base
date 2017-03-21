@@ -1,0 +1,23 @@
+{
+  "name": "node-dev-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "missing": "dependency-sync --once",
+    "start": "nodemon",
+    "test": "tape **/*.test.js | faucet"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dependency-sync": "^2.0.23",
+    "faucet": "^0.0.1",
+    "nodemon": "^1.11.0",
+    "tape": "^4.6.3"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0"
+  }
+}
